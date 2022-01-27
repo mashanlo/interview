@@ -22,9 +22,11 @@ function checkBrackets() {
 
     if (bracketsArray.length) {
       console.log('KO');
+      return 'KO';
     }
     else {
       console.log('OK');
+      return 'OK';
     }
 
   })

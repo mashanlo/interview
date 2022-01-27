@@ -14,6 +14,7 @@ function getNewArr(num) {
 
   if (odd === even) {
     console.log(arr);
+    return arr;
   }
   else if (odd > even) {
     for (let i = 0; i < odd - even; i++) {
@@ -25,6 +26,7 @@ function getNewArr(num) {
       }
     }
     console.log(arr);
+    return arr;
   }
   else if (odd < even) {
     for (let i = 0; i < even - odd; i++) {
@@ -36,6 +38,7 @@ function getNewArr(num) {
       }
     }
     console.log(arr);
+    return arr;
   }
 
 }
